@@ -1,0 +1,106 @@
+{
+  "school": {
+    "name": "Green Valley High School",
+    "location": {
+      "city": "Springfield",
+      "state": "Illinois",
+      "country": "USA"
+    },
+    "departments": [
+      {
+        "name": "Mathematics",
+        "head": "Dr. John Smith",
+        "courses": [
+          {
+            "course_id": "MATH101",
+            "title": "Algebra I",
+            "credits": 3,
+            "students": [
+              {
+                "student_id": "S101",
+                "name": "Alice Johnson",
+                "grade": "A"
+              },
+              {
+                "student_id": "S102",
+                "name": "Bob Brown",
+                "grade": "B+"
+              }
+            ]
+          },
+          {
+            "course_id": "MATH102",
+            "title": "Geometry",
+            "credits": 3,
+            "students": [
+              {
+                "student_id": "S103",
+                "name": "Charlie Davis",
+                "grade": "A-"
+              },
+              {
+                "student_id": "S104",
+                "name": "Diana Evans",
+                "grade": "B"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Science",
+        "head": "Dr. Emily Clark",
+        "courses": [
+          {
+            "course_id": "SCI101",
+            "title": "Physics",
+            "credits": 4,
+            "students": [
+              {
+                "student_id": "S101",
+                "name": "Alice Johnson",
+                "grade": "A"
+              },
+              {
+                "student_id": "S105",
+                "name": "Ethan Hill",
+                "grade": "B+"
+              }
+            ]
+          },
+          {
+            "course_id": "SCI102",
+            "title": "Chemistry",
+            "credits": 4,
+            "students": [
+              {
+                "student_id": "S106",
+                "name": "Grace Green",
+                "grade": "B-"
+              },
+              {
+                "student_id": "S107",
+                "name": "Hannah White",
+                "grade": "A"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "staff": [
+      {
+        "staff_id": "T01",
+        "name": "Dr. John Smith",
+        "position": "Head of Mathematics",
+        "email": "jsmith@greenvalleyhs.edu"
+      },
+      {
+        "staff_id": "T02",
+        "name": "Dr. Emily Clark",
+        "position": "Head of Science",
+        "email": "eclark@greenvalleyhs.edu"
+      }
+    ]
+  }
+}
