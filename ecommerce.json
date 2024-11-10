@@ -1,0 +1,90 @@
+{
+  "ecommerce": {
+    "categories": [
+      {
+        "id": 1,
+        "name": "Electronics",
+        "description": "Devices, gadgets, and more",
+        "products": [
+          {
+            "product_id": 101,
+            "name": "Smartphone",
+            "brand": "Brand A",
+            "price": 499.99,
+            "stock": 100,
+            "features": {
+              "screen_size": "6.1 inches",
+              "battery": "4000mAh",
+              "camera": "12MP dual",
+              "storage_options": ["64GB", "128GB", "256GB"]
+            },
+            "reviews": [
+              {
+                "user_id": 1001,
+                "rating": 4.5,
+                "comment": "Great phone with good battery life!",
+                "date": "2024-10-20"
+              },
+              {
+                "user_id": 1002,
+                "rating": 3.8,
+                "comment": "Nice features, but a bit overpriced.",
+                "date": "2024-11-01"
+              }
+            ]
+          },
+          {
+            "product_id": 102,
+            "name": "Laptop",
+            "brand": "Brand B",
+            "price": 899.99,
+            "stock": 50,
+            "features": {
+              "processor": "Intel i7",
+              "ram": "16GB",
+              "storage": "512GB SSD",
+              "battery": "8 hours"
+            },
+            "reviews": [
+              {
+                "user_id": 1003,
+                "rating": 4.0,
+                "comment": "Smooth performance and lightweight.",
+                "date": "2024-09-15"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Fashion",
+        "description": "Clothing and accessories",
+        "products": [
+          {
+            "product_id": 201,
+            "name": "Men's Jacket",
+            "brand": "Brand C",
+            "price": 120.0,
+            "stock": 75,
+            "features": {
+              "size_options": ["S", "M", "L", "XL"],
+              "material": "Leather",
+              "color_options": ["Black", "Brown"]
+            },
+            "reviews": []
+          }
+        ]
+      }
+    ],
+    "users": [
+      {
+        "user_id": 1001,
+        "name": "John Doe",
+        "email": "john@example.com",
+        "purchase_history": [
+          {
+            "order_id": 5001,
+            "product_id": 101,
+            "quantity": 1,
+            "pur
